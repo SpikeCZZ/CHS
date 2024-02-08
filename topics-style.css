@@ -80,6 +80,7 @@ nav ul li a {
 }
 
 .column a.column {
+    display: inline-block;
     background-color: #ff4500; /* Vibrant orange, as on the homepage */
     border: none;
     border-radius: 20px; /* Round edges */
@@ -88,11 +89,13 @@ nav ul li a {
     font-size: 18px; /* Increased font size for better readability */
     margin: 10px 0; /* Maintain equal vertical space */
     padding: 15px 30px; /* Increased padding for larger buttons */
-    width: 50%; /* Buttons take width of the column */
+    width: 60%; /* Buttons take width of the column */
+    text-decoration: none; /* Removes underline from links */
     transition: background-color 0.3s;
 }
 
 .column b.column {
+    display: inline-block;
     background-color: #ff4500; /* Vibrant orange, as on the homepage */
     border: none;
     border-radius: 20px; /* Round edges */
@@ -101,7 +104,8 @@ nav ul li a {
     font-size: 18px; /* Increased font size for better readability */
     margin: 12px 0; /* Maintain equal vertical space */
     padding: 15px 30px; /* Increased padding for larger buttons */
-    width: 50%; /* Buttons take width of the column */
+    width: 60%; /* Buttons take width of the column */
+    text-decoration: none; /* Removes underline from links */
     transition: background-color 0.3s;
 }
 
