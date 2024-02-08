@@ -34,7 +34,7 @@ nav ul {
     list-style: none;
     padding: 0;
     display: flex;
-    margin: 0 20px; /* Ensure nav doesn't affect centering of h1 */
+    margin: 0 18px; /* Ensure nav doesn't affect centering of h1 */
 }
 
 nav ul li {
@@ -86,10 +86,11 @@ nav ul li a {
     border-radius: 20px; /* Round edges */
     color: #ffffff;
     cursor: pointer;
+    text-align: center;
     font-size: 18px; /* Increased font size for better readability */
     margin: 10px 0; /* Maintain equal vertical space */
     padding: 15px 30px; /* Increased padding for larger buttons */
-    width: 60%; /* Buttons take width of the column */
+    width: 40%; /* Buttons take width of the column */
     text-decoration: none; /* Removes underline from links */
     transition: background-color 0.3s;
 }
@@ -101,10 +102,11 @@ nav ul li a {
     border-radius: 20px; /* Round edges */
     color: #ffffff;
     cursor: pointer;
+    text-align: center;
     font-size: 18px; /* Increased font size for better readability */
     margin: 14px 0; /* Maintain equal vertical space */
     padding: 15px 30px; /* Increased padding for larger buttons */
-    width: 60%; /* Buttons take width of the column */
+    width: 40%; /* Buttons take width of the column */
     text-decoration: none; /* Removes underline from links */
     transition: background-color 0.3s;
 }
