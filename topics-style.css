@@ -13,7 +13,8 @@ header {
     padding: 1em;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    position: relative;
 }
 
 .site-name {
@@ -25,16 +26,21 @@ header {
 }
 
 h1 {
-    margin: 45px 50px 5px 45px;
-    font-size: 32px; 
+    font-size: 32px;
     font-weight: bold;
+    /* Ensures h1 stays centered without explicitly setting its position */
+    flex-grow: 1;
+    text-align: center;
 }
 
 nav ul {
     list-style: none;
     padding: 0;
     display: flex;
-    margin: 0 18px; /* Ensure nav doesn't affect centering of h1 */
+    margin: 0;
+    position: absolute;
+    right: 20px;
+    top: 18px;
 }
 
 nav ul li {
