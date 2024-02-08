@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chinese Humanities Society</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Chinese Humanities Society</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="literature.html">Literature</a></li>
+                <li><a href="history.html">History</a></li>
+                <li><a href="art.html">Art</a></li>
+                <li><a href="philosophy.html">Philosophy</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Welcome</h2>
+            <p>Welcome to the Chinese Humanities Society, a place for exploration and discussion of Chinese culture, history, and arts. Join us as we delve into various topics and broaden our understanding together.</p>
+        </section>
+    </main>
+    <footer>
+        <p>Contact us at: example@email.com</p>
+        <p>Follow us on social media for updates.</p>
+    </footer>
+</body>
+</html>
