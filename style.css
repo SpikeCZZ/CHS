@@ -8,8 +8,8 @@ body {
 }
 
 header, footer {
-    background-color: #333;
-    color: #fff;
+    background-color: #343a40; /* Slightly lighter than black for contrast */
+    color: #ffffff;
     text-align: center;
     padding: 1em;
 }
@@ -25,39 +25,43 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #fff;
+    color: #ffffff;
     text-decoration: none;
 }
 
 main {
     flex: 1;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center main content vertically */
+    align-items: center; /* Center main content horizontally */
 }
 
-.buttons-section {
-    margin: 20px 0;
+.welcome-section {
+    margin-bottom: 20px; /* Add some space between the welcome section and buttons */
 }
 
-button {
-    background-color: #007BFF; /* Vibrant Blue */
+.buttons-section button {
+    background-color: #ff4500; /* Exciting orange */
     border: none;
-    border-radius: 20px; /* Round edges */
-    color: #FFFFFF; /* White text */
+    border-radius: 30px; /* More pronounced round edges */
+    color: #ffffff;
     cursor: pointer;
-    font-size: 16px; /* Bold font size */
-    font-weight: bold; /* Bold font */
-    margin: 10px;
-    padding: 10px 20px;
-    transition: background-color 0.3s;
+    font-size: 20px; /* Larger font size */
+    font-weight: bold;
+    margin: 15px;
+    padding: 20px 40px; /* Larger buttons */
+    transition: transform 0.2s; /* Smooth transform effect on hover */
 }
 
-button:hover {
-    background-color: #0056b3; /* Darker shade on hover */
+.buttons-section button:hover {
+    transform: scale(1.1); /* Slightly enlarge buttons on hover */
+    background-color: #ff6347; /* Tomato color for hover state */
 }
 
 footer {
-    background-color: #333;
-    color: #fff;
+    background-color: #343a40;
+    color: #ffffff;
     text-align: center;
     padding: 1em;
 }
