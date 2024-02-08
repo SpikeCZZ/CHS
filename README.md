@@ -1,0 +1,2 @@
+# CHS
+Chinese Humanities Society
