@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.site-name {
+    font-size: 20px; /* Smaller than on the homepage */
+    font-weight: normal;
+    position: absolute; /* Move to the top-left corner */
+    left: 20px;
+    top: 15px;
+}
+
+h1 {
+    margin: 0 auto; /* Center the main heading */
+    font-size: 24px; /* Matching homepage size */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    margin: 0 20px; /* Ensure nav doesn't affect centering of h1 */
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Align columns to the top */
+    flex-wrap: wrap; /* Ensure responsiveness */
+    margin: 20px 0;
+}
+
+.columns {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    border-left: 2px solid #ddd; /* Vertical line on the left of the first column */
+}
+
+.column {
+    flex: 1;
+    margin: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center buttons */
+    padding: 0 20px;
+}
+
+.column:not(:first-child) {
+    border-left: 2px solid #ddd; /* Vertical line between columns */
+}
+
+.column h3 {
+    text-align: center;
+    color: #007BFF; /* Maintaining vibrant color theme */
+}
+
+.column button {
+    background-color: #ff4500; /* Vibrant orange, as on the homepage */
+    border: none;
+    border-radius: 20px; /* Round edges */
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 18px; /* Increased font size for better readability */
+    margin: 10px 0; /* Maintain equal vertical space */
+    padding: 15px 30px; /* Increased padding for larger buttons */
+    width: 100%; /* Buttons take full width of the column */
+    transition: background-color 0.3s;
+}
+
+.column button:hover {
+    background-color: #ff6347; /* Tomato color for hover effect */
+}
+
+.proposal-text {
+    text-align: center;
+    margin-top: 30px; /* Space from the last row of buttons */
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    margin-top: auto; /* Push footer to the bottom */
+}
