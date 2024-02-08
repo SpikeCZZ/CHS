@@ -81,7 +81,7 @@ nav ul li a {
 
 .column a.button {
     display: inline-block;
-    background-color: #ff4500; /* Vibrant orange, as on the homepage */
+    background-color: #cc7322fc; /* Vibrant orange, as on the homepage */
     border: none;
     border-radius: 20px; /* Round edges */
     color: #ffffff;
@@ -96,13 +96,13 @@ nav ul li a {
 
 .column b.button {
     display: inline-block;
-    background-color: #ff4500; /* Vibrant orange, as on the homepage */
+    background-color: #cc7322fc; /* Vibrant orange, as on the homepage */
     border: none;
     border-radius: 20px; /* Round edges */
     color: #ffffff;
     cursor: pointer;
     font-size: 18px; /* Increased font size for better readability */
-    margin: 12px 0; /* Maintain equal vertical space */
+    margin: 14px 0; /* Maintain equal vertical space */
     padding: 15px 30px; /* Increased padding for larger buttons */
     width: 60%; /* Buttons take width of the column */
     text-decoration: none; /* Removes underline from links */
