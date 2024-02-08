@@ -126,7 +126,7 @@ nav ul li a {
     cursor: pointer;
     text-align: center;
     font-size: 18px; /* Increased font size for better readability */
-    margin: 14px 30px 14px 40px; /* Maintain equal vertical space */
+    margin: auto;
     padding: 15px 20px; /* Increased padding for larger buttons */
     text-decoration: none; /* Removes underline from links */
     transition: background-color 0.3s;
