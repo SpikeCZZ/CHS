@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.site-name {
+    font-size: 20px; /* Smaller than the homepage */
+    font-weight: normal;
+    margin-right: 20px;
+}
+
+h1 {
+    flex-grow: 1;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.columns {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.column {
+    flex: 1;
+    margin: 0 20px;
+}
+
+#subjects {
+    border-right: 2px solid #ddd; /* Vertical line between columns */
+}
+
+.column h3 {
+    text-align: center;
+}
+
+.column button {
+    background-color: #ff4500; /* Same vibrant color as homepage */
+    border: none;
+    border-radius: 20px;
+    color: #ffffff;
+    cursor: pointer;
+    display: block;
+    font-size: 18px; /* Larger font size */
+    margin: 10px auto; /* Center buttons and add vertical space */
+    padding: 15px 30px; /* Larger buttons */
+    width: 80%; /* Ensure consistent width for all buttons */
+    transition: background-color 0.3s;
+}
+
+.column button:hover {
+    background-color: #ff6347;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+/* Other styles remain the same */
+
+.column {
+    flex: 1;
+    margin: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center buttons */
+}
+
+#subjects {
+    border-right: 2px solid #ddd; /* Vertical line between columns */
+}
+
+.column button {
+    background-color: #ff4500; /* Vibrant orange, as on the homepage */
+    border: none;
+    border-radius: 20px; /* Round edges */
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 18px; /* Larger font size for visibility */
+    margin: 10px 0; /* Equal vertical space between buttons */
+    padding: 15px 30px; /* Larger padding for bigger buttons */
+    width: 80%; /* Consistent width for all buttons */
+    transition: background-color 0.3s;
+}
+
+.column button:hover {
+    background-color: #ff6347; /* Tomato color for hover state */
+}
+
+.proposal-text {
+    margin-top: 20px;
+    text-align: center;
+}
