@@ -49,35 +49,8 @@ nav ul li a {
     margin: 20px;
 }
 
-.column {
-    flex: 1;
-    margin: 0 20px;
-}
-
-#subjects {
-    border-right: 2px solid #ddd; /* Vertical line between columns */
-}
-
 .column h3 {
     text-align: center;
-}
-
-.column button {
-    background-color: #ff4500; /* Same vibrant color as homepage */
-    border: none;
-    border-radius: 20px;
-    color: #ffffff;
-    cursor: pointer;
-    display: block;
-    font-size: 18px; /* Larger font size */
-    margin: 10px auto; /* Center buttons and add vertical space */
-    padding: 15px 30px; /* Larger buttons */
-    width: 80%; /* Ensure consistent width for all buttons */
-    transition: background-color 0.3s;
-}
-
-.column button:hover {
-    background-color: #ff6347;
 }
 
 footer {
