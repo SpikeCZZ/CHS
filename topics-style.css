@@ -117,6 +117,22 @@ nav ul li a {
     transition: background-color 0.3s;
 }
 
+.buttons-section c.button {
+    display: inline-block;
+    background-color: #174b83; /* Vibrant orange, as on the homepage */
+    border: none;
+    border-radius: 20px; /* Round edges */
+    color: #ffffff;
+    cursor: pointer;
+    text-align: center;
+    font-size: 18px; /* Increased font size for better readability */
+    margin: 14px 0; /* Maintain equal vertical space */
+    padding: 15px 30px; /* Increased padding for larger buttons */
+    width: 40%; /* Buttons take width of the column */
+    text-decoration: none; /* Removes underline from links */
+    transition: background-color 0.3s;
+}
+
 .column a.button:hover {
     background-color: #c94700; 
 }
@@ -125,9 +141,8 @@ nav ul li a {
     background-color: #c94700; 
 }
 
-.proposal-text {
-    text-align: center;
-    margin-top: 30px; /* Space from the last row of buttons */
+.buttons-section c.button:hover {
+    background-color: #011b6f; 
 }
 
 footer {
