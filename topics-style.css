@@ -26,7 +26,7 @@ header {
 
 h1 {
     tex-align: center;
-    font-size: 30px; 
+    font-size: 32px; 
     font-weight: bold;
 }
 
@@ -79,7 +79,7 @@ nav ul li a {
     color: #005ec0; /* Maintaining vibrant color theme */
 }
 
-.column button {
+.column button1 {
     background-color: #ff4500; /* Vibrant orange, as on the homepage */
     border: none;
     border-radius: 20px; /* Round edges */
@@ -88,12 +88,29 @@ nav ul li a {
     font-size: 18px; /* Increased font size for better readability */
     margin: 10px 0; /* Maintain equal vertical space */
     padding: 15px 30px; /* Increased padding for larger buttons */
-    width: 100%; /* Buttons take full width of the column */
+    width: 50%; /* Buttons take width of the column */
     transition: background-color 0.3s;
 }
 
-.column button:hover {
-    background-color: #c94700; /* Tomato color for hover effect */
+.column button2 {
+    background-color: #ff4500; /* Vibrant orange, as on the homepage */
+    border: none;
+    border-radius: 20px; /* Round edges */
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 18px; /* Increased font size for better readability */
+    margin: 12px 0; /* Maintain equal vertical space */
+    padding: 15px 30px; /* Increased padding for larger buttons */
+    width: 50%; /* Buttons take width of the column */
+    transition: background-color 0.3s;
+}
+
+.column button1:hover {
+    background-color: #c94700; 
+}
+
+.column button2:hover {
+    background-color: #c94700; 
 }
 
 .proposal-text {
