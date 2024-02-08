@@ -79,7 +79,7 @@ nav ul li a {
     color: #005ec0; /* Maintaining vibrant color theme */
 }
 
-.column a.column {
+.column a.button {
     display: inline-block;
     background-color: #ff4500; /* Vibrant orange, as on the homepage */
     border: none;
@@ -94,7 +94,7 @@ nav ul li a {
     transition: background-color 0.3s;
 }
 
-.column b.column {
+.column b.button {
     display: inline-block;
     background-color: #ff4500; /* Vibrant orange, as on the homepage */
     border: none;
@@ -109,11 +109,11 @@ nav ul li a {
     transition: background-color 0.3s;
 }
 
-.column a.column:hover {
+.column a.button:hover {
     background-color: #c94700; 
 }
 
-.column b.column:hover {
+.column b.button:hover {
     background-color: #c94700; 
 }
 
