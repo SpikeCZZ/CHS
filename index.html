@@ -20,10 +20,46 @@
         </nav>
     </header>
     <main>
-        <section class="welcome-section">
-            <h2>Welcome!</h2>
-            <p>Our journey of thinking begins here.</p>
+        <div class="intro">
+            <section class="welcome-section">
+                <h2>Welcome!</h2>
+                <p>Our journey of thinking begins here.</p>
+            </section>
+        </div>
+
+        <section class="event">
+            <h3>Upcoming Events:</h3>
         </section>
+
+        <div class="slider-container">
+            <div class="slider">
+                <div class="slide">
+                    <p class="slide-h">Stream of Consciousness in Films</p>
+                    <p class="slide-text">How do films use the stream-of-consciousness as a narrative technique? In this session, we will look closely into psychoanalysis and its contemporary applications. </p>
+                    <p class="slide-date">FEB<br>17</p>
+                    
+                </div> 
+                <div class="slide">
+                    <p class="slide-h">Existentialism in Popular Culture</p>
+                    <p class="slide-text">What is existentialism? How did it get secularized in the popular culture? We will discuss this interpretive gap between scholaristic and secular definitions of existentialism, and share our different conceptions in the globalized context.</p> 
+                    <p class="slide-date">MAR<br>24</p>
+                </div>
+                <div class="slide">
+                    <p class="slide-h">ChatGPT as our Extented Minds?</p> 
+                    <p class="slide-text">Stream of Consciousness in Films</p>
+                    <p class="slide-date">MAR<br>3</p>
+                </div>
+            </div>
+            <div class="slider-nav">
+                <button class="nav-btn" onclick="navigateSlide(0)"> </button>
+                <button class="nav-btn" onclick="navigateSlide(1)"> </button>
+                <button class="nav-btn" onclick="navigateSlide(2)"> </button>
+            </div>
+        </div>
+        <script src="script.js"></script>
+
+
+
         <section class="buttons-section">
             <button onclick="location.href='future-topics.html'">Future Topics</button>
             <button onclick="location.href='schedule-meeting.html'">Schedule Next Meeting</button>
@@ -32,6 +68,8 @@
             <button onclick="location.href='philosophy.html'">Philosophy</button>
             <button onclick="location.href='join-us.html'">Join Us</button>
         </section>
+
+
     </main>
     <footer>
         <p>Contact us at: zizhe.cheng@richmond.edu</p>
