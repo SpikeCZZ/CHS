@@ -26,10 +26,24 @@ section {
     justify-content: center;
 }
 
+.portrait.plato { background-image: url('plato.jpeg'); }
+.portrait.aristotle { background-image: url('path-to-aristotle-portrait.jpg'); }
+.portrait.aquinas { background-image: url('path-to-aquinas-portrait.jpg'); }
+.portrait.anselm { background-image: url('path-to-anselm-portrait.jpg'); }
+.portrait.hegel { background-image: url('path-to-hegel-portrait.jpg'); }
+.portrait.heidegger { background-image: url('path-to-heidegger-portrait.jpg'); }
+.portrait.sartre { background-image: url('path-to-sartre-portrait.jpg'); }
+
+/* Contemporary Philosophers */
+.portrait.kripke { background-image: url('path-to-kripke-portrait.jpg'); }
+.portrait.putnam { background-image: url('path-to-putnam-portrait.jpg'); }
+.portrait.dlewis { background-image: url('path-to-dlewis-portrait.jpg'); }
+
 .portrait {
-    width: 80px; /* Square shape */
-    height: 80px;
-    background-color: #ddd; /* Placeholder for images */
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
     position: relative;
     cursor: pointer;
 }
@@ -38,15 +52,16 @@ section {
     content: attr(data-name);
     position: absolute;
     width: 100%;
-    bottom: 0;
-    left: 0;
+    height: 100%;
     background-color: rgba(0, 0, 0, 0.7);
     color: #fff;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     opacity: 0;
-    transition: opacity 0.3s;
+    transition: opacity 0.3s ease;
 }
 
 .portrait:hover::after {
-    opacity: 0.9; /* Show name on hover */
+    opacity: 0.9;
 }
