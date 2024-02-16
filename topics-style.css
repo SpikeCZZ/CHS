@@ -87,13 +87,13 @@ nav ul li a {
 
 #subjects .button {
     display: inline-block;
-    background-color: #cc7322fc; /* Vibrant orange, as on the homepage */
+    background-color: #cc7322fc; 
     border: none;
-    border-radius: 20px; /* Round edges */
+    border-radius: 15px; /* Round edges */
     color: #ffffff;
     cursor: pointer;
     text-align: center;
-    font-size: 18px; /* Increased font size for better readability */
+    font-size: 18px;
     margin: 10px 0; /* Maintain equal vertical space */
     padding: 15px 30px; /* Increased padding for larger buttons */
     width: 40%; /* Buttons take width of the column */
@@ -103,15 +103,15 @@ nav ul li a {
 
 #history .button {
     display: inline-block;
-    background-color: #a93625; /* Vibrant orange, as on the homepage */
+    background-color: #a93625;
     border: none;
-    border-radius: 20px; /* Round edges */
+    border-radius: 15px; 
     color: #ffffff;
     cursor: pointer;
     text-align: center;
-    font-size: 18px; /* Increased font size for better readability */
-    margin: 14px 0; /* Maintain equal vertical space */
-    padding: 15px 30px; /* Increased padding for larger buttons */
+    font-size: 18px; 
+    margin: 10px 0; 
+    padding: 15px 30px; 
     width: 40%; /* Buttons take width of the column */
     text-decoration: none; /* Removes underline from links */
     transition: background-color 0.3s;
