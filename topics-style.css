@@ -159,3 +159,13 @@ footer {
     padding: 2em;
     margin-top: auto; /* Push footer to the bottom */
 }
+
+#history ul {
+    list-style: none; /* Removes default list styling */
+    padding: 0; /* Removes default padding */
+}
+
+#history ul li {
+    margin-bottom: 10px; /* Adds some space between list items */
+}
+
