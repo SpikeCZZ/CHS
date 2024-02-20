@@ -43,13 +43,11 @@ document.addEventListener('DOMContentLoaded', function() {
     document.querySelectorAll('.section').forEach(function(section) {
         section.addEventListener('click', function() {
             const description = this.querySelector('.description');
-            // Toggle the display of the description
-            if (description.style.display === 'block') {
-                description.style.display = 'none';
-                this.style.marginBottom = '10px'; // Reset margin if needed
+            if (description.style.maxHeight) {
+                description.style.maxHeight = null; // This will collapse the section
             } else {
-                description.style.display = 'block';
-                this.style.marginBottom = '20px'; // Increase margin for visual spacing
+                // Set maxHeight to its scrollHeight, which is the actual height required by the content
+                description.style.maxHeight = description.scrollHeight + "px";
             }
         });
     });
