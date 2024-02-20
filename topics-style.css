@@ -179,8 +179,10 @@ footer {
 }
 
 .description {
-    display: none;
-    padding: 10px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-out;
+    padding: 0 10px; /* Adjust padding as necessary */
     border-top: 1px solid #ccc;
     color: #333;
 }
