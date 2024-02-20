@@ -37,5 +37,24 @@
     <footer>
         <p>Contact us at: zizhe.cheng@richmond.edu</p>
     </footer>
+
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        document.querySelectorAll('.section').forEach(function(section) {
+            section.addEventListener('click', function() {
+                const description = this.querySelector('.description');
+                // Toggle the display of the description
+                if (description.style.display === 'block') {
+                    description.style.display = 'none';
+                    this.style.marginBottom = '10px'; // Reset margin if needed
+                } else {
+                    description.style.display = 'block';
+                    this.style.marginBottom = '20px'; // Increase margin for visual spacing
+                }
+            });
+        });
+    });
+</script>
+    
 </body>
 </html>
