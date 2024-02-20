@@ -190,7 +190,9 @@ footer {
     transition: max-height 0.3s ease-out;
     padding: 10 10px; 
     border-top: 0.5px solid #ccc;
+    border-bottom-width: 5px;
     color: #000000;
-    font-size: medium;
+    font-size: 20px;
     background-color:#c0884969;
+    line-height: 2.5;
 }
