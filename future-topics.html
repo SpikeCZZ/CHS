@@ -43,10 +43,11 @@ document.addEventListener('DOMContentLoaded', function() {
     document.querySelectorAll('.section').forEach(function(section) {
         section.addEventListener('click', function() {
             const description = this.querySelector('.description');
-            if (description.style.maxHeight) {
-                description.style.maxHeight = null; // This will collapse the section
+            if (description.style.maxHeight && description.style.maxHeight !== "0px") {
+                // Collapse the section
+                description.style.maxHeight = '0';
             } else {
-                // Set maxHeight to its scrollHeight, which is the actual height required by the content
+                // Expand the section
                 description.style.maxHeight = description.scrollHeight + "px";
             }
         });
